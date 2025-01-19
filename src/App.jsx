@@ -1,9 +1,12 @@
-import { Hero, Nav, Footer, Advantages, AboutUs, HowItWorks  } from "./sections";
+import { Hero, Footer, Advantages, AboutUs, HowItWorks  } from "./sections";
+import Nav from'./components/Nav';
+import './index.css';
+
 
 const App = () => (
   <main className="relative">
     <Nav />
-    <section className="xl:padding-1 wdie:padding-r padding-b bg-hero">
+    <section className="padding-x pt-5">
       <Hero />
     </section>
     <section className="padding bg-howitworks">

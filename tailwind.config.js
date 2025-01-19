@@ -14,18 +14,19 @@ export default {
       '2xl': ['24px', '29.26px'],
       '3xl': ['28px', '50px'],
       '4xl': ['48px', '58px'],
+      '5xl': ['64px', '78px'],
       '8xl': ['96px', '106px']
     },
     extend: {
       fontFamily: {
-        dmsans: ['DMSans', 'sans-serif'],
+        sans: ['DM Sans', 'sans-serif'],  // Make DMSans the default sans-serif font
       },
       colors: {
         'primary': "#ECEEFF",
         "cyan": "#00E2C7",
         "green": "#008D7C",
         "blue": "#03A1FF",
-        "dark blue": "#003559",
+        "darkblue": "#003559",
         "grey": "#D9D9D9"
       },
       boxShadow: {

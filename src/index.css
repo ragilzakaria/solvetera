@@ -11,10 +11,15 @@
   scroll-behavior: smooth;
 }
 
+
 @layer components {
   .max-container {
     max-width: 1440px;
     margin: 0 auto;
+  }
+
+  .body{
+    font-family: 'DMSans', sans-serif;
   }
 
   .input {
@@ -51,7 +56,4 @@
     @apply sm:pb-24 pb-12;
   }
 
-  .info-text {
-    @apply font-montserrat text-slate-gray text-lg leading-7;
-  }
 }
