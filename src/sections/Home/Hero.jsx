@@ -1,8 +1,7 @@
 const Hero = () => {
   return (
     <section 
-    id="home"
-    className="w-full flex flex-col gap-10 max-container">
+    className="w-full flex flex-col gap-10 max-container pt-8">
       <div className="relative xl:w-3/5 flex flex-col justify-start items-start w-full max-xl:padding-x pt-20">
       <h1 className="text-5xl font-bold leading-snug">
           Innovating <span className="bg-gradient-to-r from-cyan to-green text-transparent bg-clip-text">Chemistry</span> 

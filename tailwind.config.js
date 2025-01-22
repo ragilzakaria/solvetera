@@ -29,16 +29,19 @@ export default {
         "mediumblue": "#007BC5",
         "darkblue": "#003559",
         "grey": "#D9D9D9",
-        "lightcyan": "B5FFF0",
+        "lightcyan": "#B5FFF0",
         "lilac": "#DEEBFF"
       },
       boxShadow: {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
       },
       backgroundImage: {
-        'hero': "url('assets/images/HeroBG.svg')",
-        'howitworks': "url('assets\images\HowItWorksBG.svg')",
-        'aboutus': "url('assets\images\AboutUsBG.svg')",
+        'hero': "url('assets/images/heroBG.png')",
+        'howitworks': "url('assets/images/howItWorksBG.png')",
+        'aboutus': "url('assets/images/aboutUsBG.png')",
+        'tutorial1': "url('assets/images/tutorial1BG.png')",
+        'tutorial2': "url('assets/images/tutorial2BG.png')",
+        'inputform': "url('assets/images/inputPredictionBG.png')",
       },
       screens: {
         "wide": "1440px"

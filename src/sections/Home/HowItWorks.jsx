@@ -1,9 +1,9 @@
-import { stepBySteps } from "../constants"
-import BlueStar from "../assets/icon/BlueStar.svg"
+import { stepBySteps } from "../../constants"
+import BlueStar from "../../assets/icon/BlueStar.svg"
 
 const HowItWorks = () => {
   return (
-    <section className="w-full flex flex-col min-h-screen gap-10 max-container py-16">
+    <section className="w-full flex flex-col min-h-screen gap-10 max-container bg-howitworks bg-no-repeat bg-right">
         <h1 className="text-4xl font-bold text-center">
           How <span className="bg-gradient-to-r from-cyan via-green to-darkblue text-transparent bg-clip-text">Solvetera</span> Works
         </h1>

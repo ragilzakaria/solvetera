@@ -1,27 +1,26 @@
-import { Hero, Footer, Advantages, AboutUs, HowItWorks  } from "./sections";
-import Nav from'./components/Nav';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import './index.css';
+import React from 'react';
 
+import Home from './Pages/Home';
+import Result from './Pages/Result';
+import Service from './Pages/Service';
+import Layout from './Layout';
+import ScrollToTop from './components/ScrollToTop';  // Import ScrollToTop component
 
-const App = () => (
-  <main className="relative">
-    <Nav />
-    <section className="padding-x pt-5">
-      <Hero />
-    </section>
-    <section className="padding">
-      <HowItWorks />
-    </section>
-    <section className="w-full">
-      <Advantages />
-    </section>
-    <section className="padding-x">
-      <AboutUs />
-    </section>
-    <section className="padding-x padding-t pb-8 bg-grey">
-      <Footer />
-    </section>
-  </main>
-);
+const App = () => {
+  return (
+    <Router>
+      <ScrollToTop />  {/* Add ScrollToTop to ensure scrolling happens on route change */}
+      <Routes>
+        <Route element={<Layout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/result" element={<Result />} />
+          <Route path="/service" element={<Service />} />
+        </Route>
+      </Routes>
+    </Router>
+  );
+};
 
 export default App;

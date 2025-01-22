@@ -1,8 +1,4 @@
-export const navLinks = [
-    { label: "About Us", href: "AboutUs" },
-    { label: "Service", href: "/" },
-    { label: "Testimony", href: "/" },
-  ];
+
   
 export const stepBySteps = [
     { label: "Enter Reaction Parameters", description: "Input key details like temperature, pressure, solubility, reactivity to define your reaction’s needs. "},
@@ -22,5 +18,20 @@ export const pros = [
     { label: "Optimized Reaction Conditions" },
 ]
 
-export const founders = [
+export const team = [
+  { label: "nadine", image: "nadine" },
+  { label: "raisa", image: "raisa" },
+  { label: "mukti", image: "mukti" },
+  { label: "lana", image: "lana" },
+]
+
+export const socials = [
+  { label: "X", icon: "X", url: "https://twitter.com/solvetera" },
+  { label: "LinkedIn", icon: "LinkedIn", url: "https://linkedin.com/company/solvetera" },
+  { label: "Instagram", icon: "Instagram", url: "https://instagram.com/solvetera.id" },
+]
+
+export const contact = [
+    { label: "Email", value: "solvetera@gmail.com" },
+    { label: "Location", value: "Bulaksumur, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281" },
 ]
