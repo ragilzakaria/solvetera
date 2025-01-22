@@ -1,13 +1,13 @@
 import { useState } from "react";
-import ResultPage from '../sections/Result/ResultPage';
 
 import '../index.css';
+import ResultCard from "../components/ResultCard";
 
 const Result = () => {
   return (
     <main className="relative">
       <section className="min-h-screen">
-        <ResultPage/>
+        <ResultCard/>
       </section>
     </main>
   )

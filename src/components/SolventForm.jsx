@@ -142,12 +142,12 @@ const SolventForm = () => {
 
         {/* Submit Button */}
         <div className="mt-6 text-center">
-          <button
-            className="bg-teal-500 text-white font-bold py-2 px-6 rounded-md hover:bg-teal-600 text-xl"
-            type="submit"
-          >
-            Find My Solvent
-          </button>
+          <Link to={"/Result"}>
+            <button  className="bg-teal-500 text-white font-bold py-2 px-6 rounded-md hover:bg-teal-600 text-xl"
+            type="submit">
+                Find My Solvent
+            </button>
+          </Link>
         </div>
       </form>
 
