@@ -26,8 +26,11 @@ export default {
         "cyan": "#00E2C7",
         "green": "#008D7C",
         "blue": "#03A1FF",
+        "mediumblue": "#007BC5",
         "darkblue": "#003559",
-        "grey": "#D9D9D9"
+        "grey": "#D9D9D9",
+        "lightcyan": "B5FFF0",
+        "lilac": "#DEEBFF"
       },
       boxShadow: {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'

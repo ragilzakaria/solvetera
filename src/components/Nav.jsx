@@ -1,11 +1,10 @@
 import SolveteraLogo from "../assets/icon/SolveteraLogo.svg";
-import { navLinks } from "../constants";
 
 const Nav = () => {
   return (
-    <header className="padding-x py-8 absolute z-10 w-full">
+    <header className="padding-x py-4 sticky top-0 z-10 w-full shadow-md bg-white">
       <nav className="flex justify-between items-center max-container">
-        <a href="/">
+        <a href="home">
           <img src={SolveteraLogo} 
           alt="logo"
           width={60} 
@@ -20,7 +19,7 @@ const Nav = () => {
               </li>
             ))}
         </ul>
-        <button className="bg-teal-600 text-white font-semibold text-base py-2 px-6 rounded-xl hover:bg-teal-700 focus:outline-none">
+        <button className="hidden xl:block bg-teal-600 text-white font-semibold text-base py-2 px-6 rounded-xl hover:bg-teal-700 focus:outline-none">
           Contact Us
         </button>
       </nav>

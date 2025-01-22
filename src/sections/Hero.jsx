@@ -1,7 +1,9 @@
 const Hero = () => {
   return (
-    <section className="w-full flex flex-col min-h-screen gap-10 max-container bg-hero bg-no-repeat bg-right">
-      <div className="relative xl:w-3/5 flex flex-col justify-start items-start w-full max-xl:padding-x pt-60">
+    <section 
+    id="home"
+    className="w-full flex flex-col gap-10 max-container">
+      <div className="relative xl:w-3/5 flex flex-col justify-start items-start w-full max-xl:padding-x pt-20">
       <h1 className="text-5xl font-bold leading-snug">
           Innovating <span className="bg-gradient-to-r from-cyan to-green text-transparent bg-clip-text">Chemistry</span> 
           <br /> <span className="bg-gradient-to-r from-cyan to-blue text-transparent bg-clip-text">Synthesizing</span> Solutions
